@@ -15,13 +15,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg,#0a0a0a , #3a4452);
+    background: linear-gradient(45deg,#00a , #444);
 }
 
 /* Main Calculator Styles */
 
 .calculator {
-    border: 2px solid #717377;
+    border: 2px solid #5c7fc5;
     padding: 20px;
     border-radius: 16px;
     background: transparent;
@@ -31,6 +31,7 @@ body{
 /* Input Styls */
 
 input{
+    
     border: none;
     width: 320px;
     padding: 24px;
@@ -58,20 +59,30 @@ button{
     margin: 10px;
     border-radius: 50%;
     background: transparent;
-    color: #ffffff;
+    color: #ec0a6c;
     font-size: 20px;
     box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
     cursor: pointer;
 }
 
+#equal-button:hover{
+    background-color: blue;
+    color: orange;
+}
+
+button:hover{
+    color: blue;
+    background-color: white;
+}
+
 /* Equal Button Styles */
 
 .equalButton{
-    background-color: #fb7c14;
+    background-color: #148ffb;
 }
 
 /* All OperaTor Styles */
 
 .operator{
-    color: #6dee0a;
+    color: #ee870a;
 }
